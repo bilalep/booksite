@@ -1,0 +1,342 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Poppins", "sans-serif";
+}
+
+/*Intro Section*/
+
+/*Title Section*/
+
+.title-section {
+    background-color: #f8f3e7;
+    padding-left: 8%;
+}
+
+.navbar {
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+.nav-item {
+    padding-left: 20px;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.main-header {
+    font-size: 6rem;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.intro-text {
+    margin-top: 20px;
+}
+
+ /*search bar*/
+
+.search-bar {
+    background-color: #fff;
+    width: 400px;
+    padding: 10px;
+    overflow: auto;
+    margin-top: 50px;
+}
+
+.text-area {
+    border: none;
+    background: none;
+    outline: none;
+    vertical-align: middle;
+    margin-top: 6px;
+}
+
+.search-button {
+    background-color: #276e6b;
+    float: right;
+    height: 45px;
+    color: white;
+    padding: 0 25px;
+    border: none;
+    border-radius: 2px;
+}
+
+.follow-us-div {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+/*Social Icons*/
+
+.social-icon-img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+/*Hero Section*/
+
+.img-section{
+    background-color: #276E6B;
+    position: relative;
+    padding-left: 8%;
+}
+
+.login-button-container {
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+.login-button {
+    color: white;
+    z-index: 1;
+}
+
+.hero-image {
+    width: 80%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.book-icons {
+    width: 70px;
+    position: absolute;
+}
+
+.open-book-ico {
+    top: 140px;
+    left: 350px;
+}
+
+.creative-idea-ico {
+    top: 200px;
+    left: 550px;
+}
+
+.target-ico {
+    top: 430px;
+    left: 620px;
+}
+
+/*Brand Logos*/
+
+#customers {
+    background-color: #fcdb66;
+    text-align: center;
+    padding: 50px 50px 30px;
+}
+
+.customers-header {
+    font-weight: 600;
+    color: #292600;
+}
+
+.brand-logos-div {
+    padding: 30px 50px;
+
+}
+
+.brand-logo {
+    height: 70px;
+    padding: 15px 60px;
+}
+
+.amazon {
+    padding-top: 20px;
+    height: 65px;
+}
+
+.dribble {
+    height: 65px;
+}
+
+/*Bestsellers*/
+
+#bestsellers {
+    background-color: #F9F4E8;
+    text-align: center;
+    padding: 80px;
+}
+
+.bestseller-header {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.bestseller-item {
+    display: inline-block;
+    width: 350px;
+    height: 500px;
+    vertical-align: text-top;
+}
+
+/*Bestseller book image*/
+
+.bestseller-image-container {
+    background-color: #276e6b;
+    position: relative;
+    margin: 50px 50px 30px;
+}
+
+.bestseller-book-cover {
+    height: 200px;
+    margin: 50px 60px;
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.bookmark-icon {
+    color: white;
+    margin-top: 0;
+    position: absolute;
+    left: 2px;
+    top: 5px;
+}
+
+.sale-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 40px 40px 0;
+    border-color: transparent #ffffff transparent transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.sale-text {
+    font-weight: 600;
+    font-size: 7px;
+    position: absolute;
+    top: 8px;
+    right: -38px;
+    transform: rotate(45deg);
+}
+
+.bestseller-item-text {
+    padding: 0 50px;
+    text-align: left;
+}
+
+.bsh6 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.bestseller-item-header {
+    float: left;
+}
+
+.bestseller-item-price {
+    float: right;
+}
+
+.bestseller-item-description {
+    clear: left;
+    font-weight: 500;
+}
+
+/*Categories*/
+
+#categories {
+    background-color: #276e6b;
+    padding: 80px;
+    text-align: center;
+}
+
+.categories-header {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.categories-item {
+    display: inline-block;
+    margin: 25px 40px 50px;
+    width: 250px;
+    height: 200px;
+}
+
+.categories-item-icon-div {
+    background-color: white;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+}
+
+.categories-item-icon {
+    width: 80px;
+    display: block;
+    margin: 30px auto;
+}
+
+.categories-item-header {
+    color: white;
+    margin-top: 10px;
+}
+
+
+/*Benefits*/
+
+#benefits-section {
+    background-color: #f9f4e8;
+    padding: 100px 300px;
+}
+
+.benefits-image-container {
+    position: relative;
+    display: inline;
+    transform: scaleX(1.5);
+}
+
+.benefits-book-1 {
+    position: absolute;
+    left: 140px;
+    height: 300px;
+}
+
+.benefits-book-2 {
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    height: 250px;
+}
+
+.benefits-book-3 {
+    position: absolute;
+    height: 200px;
+    top: 50px;
+}
+
+.benefits-text-container {
+    margin-left: 450px;
+    color: #150305;
+}
+
+.benefits-header {
+    font-weight: 700;
+}
+
+.benefits-item-icon {
+    width: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.benefits-item-description {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding-top: 14px;
+    font-weight: 600;
+}
+
